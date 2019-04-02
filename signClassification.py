@@ -1,5 +1,9 @@
 # -*- coding: utf-8 -*-
 """
+Adapted from from code at
+https://becominghuman.ai/building-an-image-classifier-using-deep-learning-in-python-totally-from-a-beginners-perspective-be8dbaf22dd8
+
+
 Created on Mon Mar 11 03:09:43 2019
 
 @author: Nathan
