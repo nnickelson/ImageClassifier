@@ -74,22 +74,12 @@ for n in range(10,20,1):
         if (prediction==actual):
             corr = corr + 1
         #print(prediction, prediction==actual)
-    print("Correct: ",corr, 30, corr/30)
+    print("Correct: ",corr, 31, corr/31)
     if corr/30 > max_predict:
-        max_predict = corr/30
+        max_predict = corr/31
         best_classifier = copy.deepcopy(newClassifier)
 
-#128,  800,  10,  300 = .72
-#128,  800,  10,  400 = .66
-#128,  100,  10,  500 = .58
-#128,   50,  20,   50 = 0.6
-#128,   50,  30,   50 = 0.56 
-#256,   50,  30,   50 = 0.66
-#256,   50,  40,   50 = 0.64
     
-#256,   50,  1,   50 = 0.64
-#256,   50,  2,   50 = 0.5
-#256,   50,  3,   50 = 0.52    
     
     
     
